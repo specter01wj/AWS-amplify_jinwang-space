@@ -17,6 +17,16 @@ export const MENU_ITEMS: NbMenuItem[] = [
     group: true,
   },
   {
+    title: 'My Demo Projects',
+    icon: 'briefcase-outline',
+    children: [
+      {
+        title: 'Geodis',
+        link: '/pages/my-demo-projects/geodis',
+      }
+    ]
+  },
+  {
     title: 'Layout',
     icon: 'layout-outline',
     children: [

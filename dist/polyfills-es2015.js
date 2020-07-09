@@ -6585,7 +6585,7 @@ if (typeof SVGElement.prototype.contains === 'undefined') {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/jinwang/MyWork/Godaddy/ngx-admin_jinwangus/src/polyfills.ts */"./src/polyfills.ts");
+module.exports = __webpack_require__(/*! /Users/jinwang/MyWork/AWS/amplify/jinwang-space.net/AWS-amplify_jinwang-space/src/polyfills.ts */"./src/polyfills.ts");
 
 
 /***/ })

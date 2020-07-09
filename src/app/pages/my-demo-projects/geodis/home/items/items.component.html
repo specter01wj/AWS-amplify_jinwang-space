@@ -1,0 +1,37 @@
+<table class="table mb-0">
+  <thead>
+    <tr>
+      <th>
+        
+      </th>
+      <th>Item</th>
+      <th>Item Type</th>
+      <th>Location</th>
+      <th>QTY</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let product of products">
+      <td>
+      </td>
+      <td>
+      	<a [routerLink]="['./geodis-items', product.id]">
+          {{ product.itemName }}
+        </a>
+      </td>
+      <td>{{ product.itemType }}</td>
+      <td>{{ product.location }}</td>
+      <td>{{ product.qty }}</td>
+      <td>
+        
+      </td>
+    </tr>
+  </tbody>
+  <tfoot>
+  	<button class="btn btn-outline-primary btn-sm"
+            [routerLink]="['./geodisCreate']">
+      Add Item
+    </button>
+  </tfoot>
+ </table>

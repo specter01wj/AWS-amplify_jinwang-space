@@ -1,0 +1,110 @@
+<div class="card">
+  <div class="card-header">
+    {{pageTitle}}
+  </div>
+
+  <div class="card-body">
+    <form novalidate
+          (ngSubmit)="saveProduct()"
+          [formGroup]="productForm">
+
+      <div class="form-group row mb-2">
+        <label class="col-md-2 col-form-label"
+               for="productNameId">Item Name</label>
+        <div class="col-md-8">
+          <input class="form-control"
+                 id="productNameId"
+                 type="text"
+                 placeholder="Name (required)" 
+                 formControlName="productName" />
+        </div>
+      </div>
+
+      <div class="form-group row mb-2">
+        <label class="col-md-2 col-form-label"
+               for="productCodeId">Item Type</label>
+        <div class="col-md-8">
+        	<select class="form-control"
+                 id="productCodeId"
+                 type="text"
+                 placeholder="Code (required)" 
+                 formControlName="productCodeId">
+				    <option value="0">--No Selection--</option>
+				    <option *ngFor="let power of powers" value={{power}}>
+				      {{power}}
+				    </option>
+				  </select>
+        </div>
+      </div>
+
+      <div class="form-group row mb-2">
+        <label class="col-md-2 col-form-label"
+               for="starRatingId">Provider</label>
+        <div class="col-md-8">
+          <input class="form-control"
+                 id="starRatingId"
+                 type="text"
+                 placeholder="Provider" 
+                 formControlName="starRatingId" />
+        </div>
+      </div>
+
+      <div class="form-group row mb-2">
+        <label class="col-md-2 col-form-label"
+               for="qtyId">Qty</label>
+        <div class="col-md-8">
+          <input class="form-control"
+                 id="qtyId"
+                 type="text"
+                 placeholder="Qty" 
+                 formControlName="qtyId" />
+        </div>
+      </div>
+
+      <div class="form-group row mb-2">
+        <label class="col-md-2 col-form-label"
+               for="availDateId">Available date</label>
+        <div class="col-md-8">
+          <input class="form-control"
+                 id="availDateId"
+                 type="date"
+                 placeholder="Available date" 
+                 formControlName="availDateId" />
+        </div>
+      </div>
+
+      <div class="form-group row mb-2">
+        <label class="col-md-2 col-form-label"
+               for="locationId">Location</label>
+        <div class="col-md-8">
+          <input class="form-control"
+                 id="locationId"
+                 type="text"
+                 placeholder="Location" 
+                 formControlName="locationId" />
+        </div>
+      </div>
+
+      <div class="form-group row mb-2">
+        <div class="offset-md-2 col-md-4">
+          <button class="btn btn-primary mr-3"
+                  style="width:80px;"
+                  type="submit">
+            Create
+          </button>
+          <button class="btn btn-outline-secondary mr-3"
+                  style="width:80px;"
+                  type="button"
+                  title="Cancel your create"
+                  [routerLink]="['./geodis-dashboard']">
+            Cancel
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <div class="alert alert-danger"
+       *ngIf="errorMessage">{{errorMessage}}
+  </div>
+</div>

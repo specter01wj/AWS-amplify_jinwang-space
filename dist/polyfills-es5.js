@@ -26480,7 +26480,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
   /***/
   function _(module, exports, __webpack_require__) {
     __webpack_require__(
-    /*! /Users/jinwang/MyWork/Godaddy/ngx-admin_jinwangus/node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/es5-polyfills.js */
+    /*! /Users/jinwang/MyWork/AWS/amplify/jinwang-space.net/AWS-amplify_jinwang-space/node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/es5-polyfills.js */
     "./node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/es5-polyfills.js");
 
     __webpack_require__(
@@ -26488,7 +26488,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     "./node_modules/zone.js/dist/zone-legacy.js");
 
     module.exports = __webpack_require__(
-    /*! /Users/jinwang/MyWork/Godaddy/ngx-admin_jinwangus/src/polyfills.ts */
+    /*! /Users/jinwang/MyWork/AWS/amplify/jinwang-space.net/AWS-amplify_jinwang-space/src/polyfills.ts */
     "./src/polyfills.ts");
     /***/
   }

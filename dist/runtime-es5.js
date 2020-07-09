@@ -64,7 +64,7 @@
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "" + ({"pages-pages-module":"pages-pages-module","charts-charts-module":"charts-charts-module","editors-editors-module":"editors-editors-module","extra-components-extra-components-module":"extra-components-extra-components-module","forms-forms-module":"forms-forms-module","layout-layout-module":"layout-layout-module","maps-maps-module":"maps-maps-module","modal-overlays-modal-overlays-module":"modal-overlays-modal-overlays-module","tables-tables-module":"tables-tables-module","ui-features-ui-features-module":"ui-features-ui-features-module"}[chunkId]||chunkId) +    "-es5.js"
+/******/ 		return __webpack_require__.p + "" + ({"pages-pages-module":"pages-pages-module","charts-charts-module":"charts-charts-module","editors-editors-module":"editors-editors-module","extra-components-extra-components-module":"extra-components-extra-components-module","forms-forms-module":"forms-forms-module","layout-layout-module":"layout-layout-module","maps-maps-module":"maps-maps-module","modal-overlays-modal-overlays-module":"modal-overlays-modal-overlays-module","my-demo-projects-demo-projects-module":"my-demo-projects-demo-projects-module","tables-tables-module":"tables-tables-module","ui-features-ui-features-module":"ui-features-ui-features-module","geodis-geodis-module":"geodis-geodis-module"}[chunkId]||chunkId) +    "-es5.js"
 /******/ 	}
 /******/
 /******/ 	// The require function
