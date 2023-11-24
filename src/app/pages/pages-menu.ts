@@ -17,7 +17,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
     group: true,
   },
   {
-    title: 'My Project Playground_2',
+    title: 'My Project Playground',
     icon: 'briefcase-outline',
     children: [
       {
