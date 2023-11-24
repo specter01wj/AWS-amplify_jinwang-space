@@ -18,13 +18,13 @@ import { ItemCreateComponent } from './home/item-create/item-create.component';
     HomeComponent,
     ItemsComponent,
     ItemDetailComponent,
-    ItemCreateComponent
+    ItemCreateComponent,
   ],
   imports: [
     CommonModule,
     ReactiveFormsModule,
     HttpClientModule,
-    GeodisRoutingModule
-  ]
+    GeodisRoutingModule,
+  ],
 })
 export class GeodisModule { }

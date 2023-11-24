@@ -7,7 +7,7 @@ import { AccountService } from '../../services/account.service';
 @Component({
   selector: 'app-item-detail',
   templateUrl: './item-detail.component.html',
-  styleUrls: ['./item-detail.component.less']
+  styleUrls: ['./item-detail.component.less'],
 })
 export class ItemDetailComponent implements OnInit {
 	product: Product | undefined;
@@ -28,7 +28,7 @@ export class ItemDetailComponent implements OnInit {
   getProduct(id: number) {
     this.accountService.getItem(id).subscribe({
       next: product => this.product = product,
-      error: err => this.errorMessage = err
+      error: err => this.errorMessage = err,
     });
   }
 

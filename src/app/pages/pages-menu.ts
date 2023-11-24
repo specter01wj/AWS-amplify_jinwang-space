@@ -23,8 +23,8 @@ export const MENU_ITEMS: NbMenuItem[] = [
       {
         title: 'Geodis',
         link: '/pages/my-demo-projects/geodis',
-      }
-    ]
+      },
+    ],
   },
   {
     title: 'Layout',

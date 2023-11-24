@@ -6,7 +6,7 @@ import { AccountService } from '../../services/account.service';
 @Component({
   selector: 'app-items',
   templateUrl: './items.component.html',
-  styleUrls: ['./items.component.less']
+  styleUrls: ['./items.component.less'],
 })
 export class ItemsComponent implements OnInit {
 	products: Product[] = [];
@@ -19,7 +19,7 @@ export class ItemsComponent implements OnInit {
       next: products => {
         this.products = products;
       },
-      error: err => this.errorMessage = err
+      error: err => this.errorMessage = err,
     });
   }
 

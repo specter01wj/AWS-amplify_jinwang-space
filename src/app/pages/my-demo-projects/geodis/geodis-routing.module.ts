@@ -13,11 +13,11 @@ const routes: Routes = [
   { path: 'geodis-items/:id', component: ItemDetailComponent },
   { path: 'geodisCreate', component: ItemCreateComponent },
   { path: '', redirectTo: 'geodis-dashboard', pathMatch: 'full' },
-  { path: '**', redirectTo: '' }
+  { path: '**', redirectTo: '' },
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
 export class GeodisRoutingModule { }

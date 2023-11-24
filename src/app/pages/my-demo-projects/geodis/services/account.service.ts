@@ -8,7 +8,7 @@ import { User } from '../models/user';
 import { Product } from '../models/product';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class AccountService {
 	public user: Observable<User>;
@@ -20,7 +20,7 @@ export class AccountService {
 
   constructor(
   	private router: Router,
-    private http: HttpClient
+    private http: HttpClient,
  	) { }
 
   login(username, password) {
@@ -30,7 +30,7 @@ export class AccountService {
         	map(user => {
             this.userSubject = user[0];
             return user;
-        	})
+        	}),
         );
   }
 
@@ -38,7 +38,7 @@ export class AccountService {
     return this.http.get<Product[]>(this.itemsUrl)
       .pipe(
         tap(data => console.log(JSON.stringify(data))),
-        catchError(this.handleError)
+        catchError(this.handleError),
       );
   }
 
@@ -50,7 +50,7 @@ export class AccountService {
     return this.http.get<Product>(url)
       .pipe(
         tap(data => console.log('getProduct: ' + JSON.stringify(data))),
-        catchError(this.handleError)
+        catchError(this.handleError),
       );
   }
 
@@ -68,7 +68,7 @@ export class AccountService {
       qty: 0,
       availDate: null,
       vendor: null,
-      location: null
+      location: null,
     };
   }
 

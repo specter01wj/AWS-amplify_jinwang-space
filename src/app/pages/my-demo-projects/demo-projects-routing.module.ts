@@ -13,7 +13,7 @@ const routes: Routes = [
   { path: 'geodis',
     loadChildren: () => import('./geodis/geodis.module')
         .then(m => m.GeodisModule),
-  }
+  },
 ];
 
 @NgModule({
@@ -24,5 +24,5 @@ export class EditorsRoutingModule { }
 
 export const routedComponents = [
   DemoProjectsComponent,
-  GeodisComponent
+  GeodisComponent,
 ];
