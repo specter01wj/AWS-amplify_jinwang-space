@@ -1,0 +1,49 @@
+<div class="card">
+  <div class="card-header">
+    {{pageTitle}}
+  </div>
+
+  <div class="card-body">
+
+    <div class="table-responsive">
+      <table class="table mb-0">
+        <thead>
+          <tr>
+            <th>
+
+            </th>
+            <th>Name</th>
+            <th>Capital</th>
+            <th>Population</th>
+            <th>Currencies</th>
+            <th>Flag</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let oceania of filteredCountry; let i = index">
+            <td>
+            	{{ i }}
+            </td>
+            <td>
+                <a [routerLink]="['/oceania', oceania.id]">{{ oceania.name }}</a>
+            </td>
+            <td>{{ oceania.capital }}</td>
+            <td>{{ oceania.population | thousandSeparator }}</td>
+            <td>{{ oceania.currencies[0].name }}</td>
+            <td>
+              <img [src]="oceania.flag"
+                   [title]="oceania.name"
+                   [style.width.px]="imageWidth"
+                   [style.margin.px]="imageMargin">
+            </td>
+            <td>
+
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+</div>

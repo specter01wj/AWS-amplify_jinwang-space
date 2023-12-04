@@ -3,16 +3,17 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { DemoProjectsComponent } from './demo-projects.component';
 import { GeodisComponent } from './geodis/geodis.component';
+import { CountryListComponent } from './country-list/country-list.component';
 
 const routes: Routes = [
-  { path: '', component: DemoProjectsComponent,
-    /*children: [
-      { path: 'geodis', component: GeodisComponent }
-    ]*/
-  },
+  { path: '', component: DemoProjectsComponent },
   { path: 'geodis',
     loadChildren: () => import('./geodis/geodis.module')
         .then(m => m.GeodisModule),
+  },
+  { path: 'countryList',
+    loadChildren: () => import('./country-list/country-list.module')
+        .then(m => m.CountryListModule),
   },
 ];
 
@@ -25,4 +26,5 @@ export class EditorsRoutingModule { }
 export const routedComponents = [
   DemoProjectsComponent,
   GeodisComponent,
+  CountryListComponent,
 ];

@@ -36,3 +36,44 @@ div {
   color: #fff;
   padding: 1rem;
 }
+
+@import '../pages.component.scss';
+
+$white-colored-line: #d8d8d8;
+
+body html {
+  height: 100%;
+}
+
+.landing-vrt-line {
+  border-left: 2px solid $white-colored-line;
+  display: none;
+}
+
+.btn-light {
+  color: $jinwang-color-blue-medium-base;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.btn-light:not(:disabled):not(.disabled):active {
+  color: $jinwang-color-orange-medium-base;
+}
+
+.jinwang-blue-bckg {
+  background-color: $jinwang-color-blue-medium-base;
+}
+
+.btn-group-vertical > input {
+  border-radius: 10px;
+}
+
+.btn-group-vertical>.btn:not(:last-child):not(.dropdown-toggle) {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.img-landing {
+  padding-bottom: 18%;
+  padding-top: 18%;
+}

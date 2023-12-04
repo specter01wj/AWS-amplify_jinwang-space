@@ -1,4 +1,6 @@
 @import '../@theme/styles/themes';
+@import '../../custom-variables';
+@import '../../variables';
 
 @include nb-install-component() {
   ::ng-deep router-outlet + * {

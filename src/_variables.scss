@@ -1,0 +1,278 @@
+$jinwang-background-color-body: #EBEBEB;
+$jinwang-border-radius: 2px;
+$jinwang-border-size-thin: 0.05rem;
+$jinwang-border-size-medium: 0.125rem;
+$jinwang-border-size-base: 4px;
+$jinwang-border-color-light: #EBEBEB;
+$jinwang-border-color-default: #05C3DE;
+$jinwang-border-round-radius: 50%;
+$jinwang-layout-breakpoint-mobile-end: 767px;
+$jinwang-layout-breakpoint-tablet-start: 768px;
+$jinwang-layout-breakpoint-tablet-end: 1023px;
+$jinwang-layout-breakpoint-desktop-start: 1024px;
+$jinwang-layout-overlap-large: 64px;
+$jinwang-layout-padding-xlarge: 44px;
+$jinwang-layout-padding-large: 24px;
+$jinwang-layout-padding-medium-large: 20px;
+$jinwang-layout-padding-medium: 16px;
+$jinwang-layout-padding-small: 8px;
+$jinwang-layout-padding-xsmall: 4px;
+$jinwang-layout-margin-xxlarge: 100px;
+$jinwang-layout-margin-special: 60px;
+$jinwang-layout-margin-xlarge: 40px;
+$jinwang-layout-margin-larger: 32px;
+$jinwang-layout-margin-large: 24px;
+$jinwang-layout-margin-medium: 16px;
+$jinwang-layout-margin-small: 8px;
+$jinwang-layout-margin-xsmall: 4px;
+$jinwang-layout-grid-columns-mobile-number: 4;
+$jinwang-layout-grid-columns-tablet-number: 12;
+$jinwang-layout-grid-columns-desktop-number: 12;
+$jinwang-layout-grid-columns-gutter: 16px;
+$jinwang-layout-page-content-desktop-width: 944px;
+$jinwang-layout-page-content-tablet-width: 100%;
+$jinwang-layout-page-content-mobile-width: 100%;
+$jinwang-color-white-base: #FFFFFF;
+$jinwang-color-white-low: #F5F5F5; // was color.base.gray.white
+$jinwang-color-gray-070: #767676;
+$jinwang-color-gray-light: #aeaeae; // light gray property token
+$jinwang-color-gray-base: #EBEBEB; // base gray property token
+$jinwang-color-gray-020: #d8d8d8;
+$jinwang-color-gray-low: #B1B1B1; // light medium gray property token
+$jinwang-color-gray-medium: #898989; // medium gray property token
+$jinwang-color-gray-high: #727272; // medium dark gray property token
+$jinwang-color-gray-extra: #4F4F4F; // dark gray property token
+$jinwang-color-black-base: #3B3B3B; // base black property token
+$jinwang-color-teal-base: #05C3DE; // base teal property token
+$jinwang-color-blue-light-base: #0785C3; // base blue property token
+$jinwang-color-blue-light-low: #086EA1;
+$jinwang-color-blue-medium-base: #054C70; // low, medium blue property token
+$jinwang-color-blue-high: #0985C3;
+$jinwang-color-blue-navy: #043954;
+$jinwang-color-orange-medium-base: #e17a17;
+$jinwang-color-yellow-light: #F8EFCE;
+$jinwang-color-yellow-dark: #DAAA00;
+$jinwang-color-red-light: #F8E7DC;
+$jinwang-color-red-base: #DA291C;
+$jinwang-color-green-base: #007a39;
+$jinwang-font-family-nimbus-sans-bold: 'Nimbus Sans Bold', Arial, Helvetica, sans-serif;
+$jinwang-font-family-nimbus-sans-condensed-base: 'Nimbus Sans Condensed',Arial, Helvetica, sans-serif;
+$jinwang-font-family-nimbus-sans-condensed-bold: 'Nimbus Sans Condensed Bold', Arial, Helvetica, sans-serif;
+$jinwang-font-family-nimbus-sans-light-base: 'Nimbus Sans Light', Arial, Helvetica, sans-serif;
+$jinwang-font-family-nimbus-sans-light-italic: NimbusSan-LigIta, Arial, Helvetica, sans-serif;
+$jinwang-font-family-nimbus-sans-regular: 'Nimbus Sans Regular', Arial, Helvetica, sans-serif;
+$jinwang-font-family-arial: Arial;
+$jinwang-font-family-helvetica: Helvetica;
+$jinwang-font-family-sans-serif: sans-serif;
+$jinwang-font-family-times-new-roman: 'Times New Roman';
+$jinwang-font-letterspacing-title: -0.8px;
+$jinwang-font-size-18: 1.125rem;
+$jinwang-font-size-20: 1.25rem;
+$jinwang-font-size-desktop-body-large: 1.25rem;
+$jinwang-font-size-desktop-title-h-1: 3rem; // The primary H1 title on desktop, 56pt to rem conversion H1
+$jinwang-font-size-desktop-title-h-3: 1.5rem; // The primary H3 title on desktop, 24pt to rem conversion H3
+$jinwang-font-size-mobile-heading-one: 3rem; // The primary/main Mobile heading, 36pt to rem conversion H1.
+$jinwang-font-size-mobile-heading-two: 2.3rem; // The secondary Mobile heading, 28pt to rem conversion H2.
+$jinwang-font-size-mobile-heading-three: 1.6rem; // The tertiary Mobile heading, 20pt to rem conversion H3
+$jinwang-font-size-mobile-heading-h-3: 1.25rem; // The primary H3 title on mobile, 20px to rem conversion H3
+$jinwang-font-size-mobile-body-large: 1.5rem; // Large body - Mobile - content font body size, 18pt converts to 1.5rem.
+$jinwang-font-size-small-base: 0.75rem; // base size, smallest size of the font
+$jinwang-font-size-small-extra-low: 0.625rem;
+$jinwang-font-size-small-low: 0.875rem; // Small size of the font
+$jinwang-font-size-medium-base: 1rem; // the standard size of the font
+$jinwang-font-size-highlight: 1.1rem; // slightly larger than then base font.
+$jinwang-font-size-large-base: 1.3rem; // the large size of the font. used ofor H4.
+$jinwang-font-size-large-low: 1.6rem; // the large size of the font. used ofor H3.
+$jinwang-font-size-large-medium: 1.8rem; // the large size of the font. used ofor H2.
+$jinwang-font-size-large-high: 2rem; // the largest size of the font. used for H1.
+$jinwang-font-size-default-base: 1rem; // the base size of the font
+$jinwang-font-weight-bold: 800;
+$jinwang-font-weight-regular: 400;
+$jinwang-font-line-height-title-h-1: 64px;
+$jinwang-font-line-height-small-base: 8px;
+$jinwang-font-line-height-small-medium: 10px;
+$jinwang-font-line-height-small-body: 20px;
+$jinwang-font-line-height-medium-base: 12px;
+$jinwang-font-line-height-large-base: 14px;
+$jinwang-font-line-height-large-low: 16px;
+$jinwang-font-line-height-large-medium: 20px;
+$jinwang-font-line-height-large-high: 24px;
+$jinwang-font-line-height-large-high-large: 28px;
+$jinwang-font-line-height-large-extra: 30px;
+$jinwang-font-line-height-large-extra-base: 32px;
+$jinwang-font-line-height-large-extra-low: 34px;
+$jinwang-font-line-height-large-extra-medium: 36px;
+$jinwang-font-line-height-large-extra-high: 38px;;
+$jinwang-font-line-height-large-extra-high-base: 40px;
+$jinwang-font-line-height-defualt-base: 0.1; // base value is currently unused, use for storing lesser values then currently defined for line-height, or to nest lower values then the available.
+$jinwang-ja-font-family-body: Meiryo,  'Meiryo W53 Regular', 'Nimbus Sans Regular', Arial, Helvetica, sans-serif;
+$jinwang-ja-font-family-heading: Meiryo,  'Meiryo W53 Regular', 'Nimbus Sans Regular', Arial, Helvetica, sans-serif;
+$jinwang-ja-font-family-input: Meiryo,  'Meiryo W53 Regular', 'Nimbus Sans Regular', Arial, Helvetica, sans-serif;
+$jinwang-ja-font-family-subheading: 'Meiryo W53 Bold', 'Nimbus Sans Bold', Arial, Helvetica, sans-serif;
+$jinwang-opacity-base: 1;
+$jinwang-opacity-half-base: 0.5;
+$jinwang-text-color-primary: #3B3B3B;
+$jinwang-text-color-secondary: #FFFFFF;
+$jinwang-text-color-tertiary: #B1B1B1;
+$jinwang-text-link-unvisited-highlight: #0785C3;
+$jinwang-text-link-unvisited-light: #054C70;
+$jinwang-text-link-unvisited-medium: #3B3B3B;
+$jinwang-text-link-visited: #05C3DE;
+$jinwang-text-link-hover: #FFFFFF;
+$jinwang-text-heading-h-1: 2rem;
+$jinwang-text-heading-h-2: 1.8rem;
+$jinwang-text-heading-h-3: 1.6rem;
+$jinwang-text-heading-h-4: 1.3rem;
+$jinwang-text-heading-h-5: 1.1rem;
+$jinwang-text-heading-h-6: 1rem;
+$jinwang-transition-duration: .2s;
+$jinwang-zindex-background: -5;
+$jinwang-zindex-base: 0;
+$jinwang-zindex-overlay: 5;
+$jinwang-bullet-size-large: 1em;
+$jinwang-bullet-color-primary: #05C3DE;
+$jinwang-component-button-padding: 4px 8px;
+$jinwang-component-button-margin: 4px;
+$jinwang-component-button-secondary-background: #3B3B3B;
+$jinwang-component-button-secondary-hover-background: #0785C3;
+$jinwang-component-button-primary-background: #3B3B3B;
+$jinwang-component-button-primary-hover-background: #0785C3;
+$jinwang-component-button-primarylight-background: #086EA1;
+$jinwang-component-button-primarylight-hover-background: #054C70;
+$jinwang-component-button-primarylight-active-background: #043954;
+$jinwang-component-button-round-background: #EBEBEB;
+$jinwang-component-button-round-border-radius: 50%;
+$jinwang-component-button-round-color: #3B3B3B;
+$jinwang-component-button-round-font-size: 0.875rem;
+$jinwang-component-button-round-font-height: 14px;
+$jinwang-component-button-round-height: 36px;
+$jinwang-component-button-round-padding: 10px;
+$jinwang-component-button-round-width: 36px;
+$jinwang-component-button-tertiary-background: #aeaeae;
+$jinwang-component-button-tertiary-hover-background: #054C70;
+$jinwang-component-button-active-background: #05C3DE;
+$jinwang-component-button-active-hover-background: #0985C3;
+$jinwang-component-button-warn-background: #e17a17;
+$jinwang-component-button-border-radius: 2px;
+$jinwang-component-button-width-padding-vertical: 8px;
+$jinwang-component-button-width-padding-horizontal: 44px;
+$jinwang-component-button-font-size: 1rem;
+$jinwang-component-button-color-background: #054C70;
+$jinwang-component-button-color-text: #FFFFFF;
+$jinwang-component-button-color-hover-background: #0985C3;
+$jinwang-component-button-icon-margin-right: 4px;
+$jinwang-caption-color: #767676;
+$jinwang-caption-font-size: 1rem;
+$jinwang-caption-line-height: 24px;
+$jinwang-caption-margin: 16px 0;
+$jinwang-caret-background-primary: #05C3DE;
+$jinwang-caret-background-secondary: #EBEBEB;
+$jinwang-caret-color-main-primary: #05C3DE;
+$jinwang-caret-color-main-secondary: #EBEBEB;
+$jinwang-caret-color-primary-default: #898989;
+$jinwang-caret-color-primary-hover: #05C3DE;
+$jinwang-caret-color-secondary-default: #EBEBEB;
+$jinwang-caret-size: 5px;
+$jinwang-dek-desktop-color: #3B3B3B;
+$jinwang-dek-desktop-font-size: 1.25rem;
+$jinwang-dek-desktop-line-height: 30px;
+$jinwang-dek-desktop-margin: 16px 0;
+$jinwang-dek-mobile-color: #3B3B3B;
+$jinwang-dek-mobile-font-size: 1.125rem;
+$jinwang-dek-mobile-line-height: 28px;
+$jinwang-dek-mobile-margin: 16px 0;
+$jinwang-eyebrow-color: #767676;
+$jinwang-eyebrow-font-size: 0.875rem;
+$jinwang-eyebrow-font-family: 'Nimbus Sans Bold', Arial, Helvetica, sans-serif;
+$jinwang-eyebrow-font-line-height: 20px;
+$jinwang-eyebrow-small-font-size: 0.625rem;
+$jinwang-eyebrow-small-font-line-height: 16px;
+$jinwang-footer-background-primary: #4F4F4F;
+$jinwang-footer-background-secondary: #3B3B3B;
+$jinwang-form-background-color: #F5F5F5;
+$jinwang-form-input-text-small-height: 1.45rem;
+$jinwang-form-input-text-small-width: 11rem;
+$jinwang-form-input-text-small-font: 0.75rem;
+$jinwang-form-input-text-medium-height: 40px;
+$jinwang-form-input-text-medium-font: 0.875rem;
+$jinwang-form-input-text-color: #EBEBEB;
+$jinwang-form-input-text-indent-base: 4px;
+$jinwang-form-input-margin-small: 4px;
+$jinwang-form-input-margin-medium: 16px;
+$jinwang-form-input-border: solid 0.05rem #d8d8d8;
+$jinwang-form-font-family: 'Nimbus Sans Regular', Arial, Helvetica, sans-serif;
+$jinwang-form-label-color: #3B3B3B;
+$jinwang-form-label-font: 0.875rem;
+$jinwang-form-label-line-height: 20px;
+$jinwang-form-layout-padding-base: 16px;
+$jinwang-header-background-primary: #3B3B3B;
+$jinwang-header-background-secondary: #EBEBEB;
+$jinwang-header-background-tertiary: #05C3DE;
+$jinwang-hero-color-background: #054C70;
+$jinwang-hero-color-text: #FFFFFF;
+$jinwang-hero-layout-overlap: 64px;
+$jinwang-hero-layout-margin: 60px;
+$jinwang-infopanel-background-warn: #F8EFCE;
+$jinwang-infopanel-background-error: #F8E7DC;
+$jinwang-infopanel-color-warn: #DAAA00;
+$jinwang-infopanel-color-error: #DA291C;
+$jinwang-infopanel-border-size: 4px;
+$jinwang-label-color-default: #EBEBEB;
+$jinwang-label-color-hover: #05C3DE;
+$jinwang-nav-link-padding: 11px 15px;
+$jinwang-nav-breadcrumb-padding-right: 4px;
+$jinwang-panel-disclaimer-mobile-width: 100%;
+$jinwang-panel-disclaimer-mobile-height: 200px;
+$jinwang-panel-disclaimer-padding: 8px;
+$jinwang-panel-disclaimer-heading-padding: 4px 0 16px;
+$jinwang-popup-overlay-layout-z-index: 5;
+$jinwang-popup-overlay-color-background: #3B3B3B;
+$jinwang-popup-overlay-line-height: 16px;
+$jinwang-popup-base-layout-margin-top: 100px;
+$jinwang-popup-base-layout-padding: 16px;
+$jinwang-popup-base-layout-mobile-padding: 16px;
+$jinwang-popup-base-layout-tablet-width: 615px;
+$jinwang-popup-base-layout-tablet-options-width: 230px;
+$jinwang-popup-base-color-text: #FFFFFF;
+$jinwang-popup-base-color-background: #3B3B3B;
+$jinwang-popup-base-font-heading-size: 1.6rem;
+$jinwang-popup-base-content-font-size: 0.875rem;
+$jinwang-popup-base-content-layout-margin-top: 4px;
+$jinwang-popup-base-controls-layout-margin-top: 16px;
+$jinwang-popup-base-close-layout-margin-top: 8px;
+$jinwang-popup-base-close-layout-margin-right: 8px;
+$jinwang-popup-base-label-padding: 4px;
+$jinwang-quote-default-background-color: #EBEBEB;
+$jinwang-quote-default-margin: 16px 0;
+$jinwang-quote-default-text-font-family: 'Nimbus Sans Light', Arial, Helvetica, sans-serif;
+$jinwang-quote-default-text-font-size: 2rem;
+$jinwang-quote-default-text-line-height: 38px;;
+$jinwang-quote-default-text-padding: 20px;
+$jinwang-quote-default-text-quote-color: #05C3DE;
+$jinwang-quote-default-text-quote-font-size: 3rem;
+$jinwang-quote-default-author-font-size: 0.875rem;
+$jinwang-quote-default-author-padding: 0 20px 20px;
+$jinwang-quote-default-tri-border-size: 0.7em;
+$jinwang-quote-call-out-border-left: 3px solid #05C3DE;
+$jinwang-quote-none-text-margin: 0 24px 0 0;
+$jinwang-quote-none-text-quote-padding: 0 0 0 24px;
+$jinwang-search-background: #3B3B3B;
+$jinwang-search-color: #3B3B3B;
+$jinwang-select-base-font-size: 0.875rem;
+$jinwang-select-base-layout-margin-bottom: 8px;
+$jinwang-select-base-color: #4F4F4F;
+$jinwang-subscription-tile-color-background: #FFFFFF;
+$jinwang-subscription-tile-layout-padding-desktop-text-top: 44px;
+$jinwang-subscription-tile-layout-padding-desktop-text-sides: 24px;
+$jinwang-subscription-tile-layout-padding-mobile-text-top: 24px;
+$jinwang-subscription-tile-layout-padding-mobile-text-sides: 16px;
+$jinwang-subscription-tile-layout-margin-text: 4px;
+$jinwang-subscription-tile-layout-margin-desktop-betweentiles: 32px;
+$jinwang-subscription-tile-layout-margin-mobile-betweentiles: 16px;
+$jinwang-subscription-tile-layout-height-image: 252px;
+$jinwang-summary-background: #4F4F4F;
+$jinwang-textbox-background: #FFFFFF;
+$jinwang-textbox-color-text: #3B3B3B;
+$jinwang-textbox-color-error: #DA291C;
+$jinwang-textbox-color-valid: #007a39;
+$jinwang-tile-background-color-base: #FFFFFF;

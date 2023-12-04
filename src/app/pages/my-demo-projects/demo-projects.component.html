@@ -1,8 +1,30 @@
-<h4>{{title}}</h4>
+<!-- <h4>{{title}}</h4>
 
 <nav>
   <a [routerLink]="['geodis']" routerLinkActive="active">Geodis</a>
 </nav>
 
 <router-outlet></router-outlet>
+ -->
+
+<section class="container-fluid gcr-wrapper">
+  <h4>{{title}}</h4>
+  <div class="card jinwang-blue-bckg p-4">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="card h-100">
+          <div class="card-body text-center">
+            <img [src]="imgPath" alt="team-logo" class="w-75 img-landing" />
+          </div>
+        </div>
+      </div>
+      <div class="landing-vrt-line"></div>
+      <div class="ml-2 col mb-2 btn-group-vertical">
+        <input type="button" class="btn btn-light" value="geodis" [routerLink]="['geodis']" routerLinkActive="active"  />
+        <input type="button" class="btn btn-light mt-3" value="countryList" [routerLink]="['countryList']" routerLinkActive="active"  />
+      </div>
+    </div>
+  </div>
+</section>
+
 

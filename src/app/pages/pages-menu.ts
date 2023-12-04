@@ -21,8 +21,8 @@ export const MENU_ITEMS: NbMenuItem[] = [
     icon: 'briefcase-outline',
     children: [
       {
-        title: 'Geodis',
-        link: '/pages/my-demo-projects/geodis',
+        title: 'Dashboard',
+        link: '/pages/my-demo-projects/',
       },
     ],
   },

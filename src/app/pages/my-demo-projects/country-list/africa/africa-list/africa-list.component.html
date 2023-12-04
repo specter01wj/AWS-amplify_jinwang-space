@@ -1,0 +1,49 @@
+<div class="card">
+  <div class="card-header">
+    {{pageTitle}}
+  </div>
+
+  <div class="card-body">
+
+    <div class="table-responsive">
+      <table class="table mb-0">
+        <thead>
+          <tr>
+            <th>
+
+            </th>
+            <th>Name</th>
+            <th>Capital</th>
+            <th>Population</th>
+            <th>Currencies</th>
+            <th>Flag</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let africa of filteredCountry; let i = index">
+            <td>
+            	{{ i }}
+            </td>
+            <td>
+                <a [routerLink]="['/africa', africa.id]">{{ africa.name }}</a>
+            </td>
+            <td>{{ africa.capital }}</td>
+            <td>{{ africa.population | thousandSeparator }}</td>
+            <td>{{ africa.currencies[0].name }}</td>
+            <td>
+              <img [src]="africa.flag"
+                   [title]="africa.name"
+                   [style.width.px]="imageWidth"
+                   [style.margin.px]="imageMargin">
+            </td>
+            <td>
+
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+</div>

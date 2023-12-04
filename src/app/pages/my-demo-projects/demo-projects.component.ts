@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DemoProjectsComponent implements OnInit {
 	title: string = 'Demo Projects';
+  imgPath: string = 'assets/images/team.png';
 
   constructor() { }
 
