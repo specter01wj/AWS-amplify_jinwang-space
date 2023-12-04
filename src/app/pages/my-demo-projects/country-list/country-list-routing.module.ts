@@ -5,23 +5,26 @@ import { CountryListComponent } from './country-list.component';
 
 const routes: Routes = [
   { path: '', component: CountryListComponent },
-  {
-    path: 'europe',
-    loadChildren: () => import('./europe/europe.module').then(m => m.EuropeModule)
+  { path: 'welcome',
+    loadChildren: () => import('./welcome/welcome.module')
+        .then(m => m.WelcomeModule)
   },
-  {
-    path: 'asia',
-    loadChildren: () => import('./asia/asia.module').then(m => m.AsiaModule)
+  { path: 'europe',
+    loadChildren: () => import('./europe/europe.module')
+        .then(m => m.EuropeModule)
   },
-  {
-    path: 'africa',
-    loadChildren: () => import('./africa/africa.module').then(m => m.AfricaModule)
+  { path: 'asia',
+    loadChildren: () => import('./asia/asia.module')
+        .then(m => m.AsiaModule)
   },
-  {
-    path: 'oceania',
-    loadChildren: () => import('./oceania/oceania.module').then(m => m.OceaniaModule)
+  { path: 'africa',
+    loadChildren: () => import('./africa/africa.module')
+        .then(m => m.AfricaModule)
   },
-  { path: '**', redirectTo: '' },
+  { path: 'oceania',
+    loadChildren: () => import('./oceania/oceania.module')
+        .then(m => m.OceaniaModule)
+  },
 ];
 
 @NgModule({

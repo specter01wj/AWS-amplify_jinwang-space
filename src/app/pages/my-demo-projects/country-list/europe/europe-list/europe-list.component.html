@@ -26,7 +26,7 @@
             	{{ i }}
             </td>
             <td>
-                <a [routerLink]="['/europe', europe.id]">{{ europe.name }}</a>
+                <a [routerLink]="['europe', europe.id]">{{ europe.name }}</a>
             </td>
             <td>{{ europe.capital }}</td>
             <td>{{ europe.population | thousandSeparator }}</td>

@@ -37,7 +37,7 @@ export class AccountService {
   getItems(): Observable<Product[]> {
     return this.http.get<Product[]>(this.itemsUrl)
       .pipe(
-        tap(data => console.log(JSON.stringify(data))),
+        // tap(data => console.log(JSON.stringify(data))),
         catchError(this.handleError),
       );
   }
@@ -49,7 +49,7 @@ export class AccountService {
     const url = `${this.itemsUrl}/${id}`;
     return this.http.get<Product>(url)
       .pipe(
-        tap(data => console.log('getProduct: ' + JSON.stringify(data))),
+        // tap(data => console.log('getProduct: ' + JSON.stringify(data))),
         catchError(this.handleError),
       );
   }

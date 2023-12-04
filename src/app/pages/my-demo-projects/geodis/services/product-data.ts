@@ -9,7 +9,7 @@ export class ProductData implements InMemoryDbService {
     const products: Product[] = [
 		  {
 		    'id': 1,
-		    'itemName': 'Leaf Rake1',
+		    'itemName': 'Leaf Rake1333',
 		    'itemType': 'GDN-0011',
 		    'provider': 'HP',
 		    'qty': 19,

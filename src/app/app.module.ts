@@ -13,6 +13,8 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { ProductData } from './@core/mock/product-data';
+import { CountriesData } from './@core/mock/countries';
+import { MyProjectDataService } from './@core/mock/myProjectDataService';
 import {
   NbChatModule,
   NbDatepickerModule,
@@ -30,7 +32,7 @@ import {
     BrowserAnimationsModule,
     HttpClientModule,
     AppRoutingModule,
-    InMemoryWebApiModule.forRoot(ProductData),
+    InMemoryWebApiModule.forRoot(MyProjectDataService),
     NbSidebarModule.forRoot(),
     NbMenuModule.forRoot(),
     NbDatepickerModule.forRoot(),

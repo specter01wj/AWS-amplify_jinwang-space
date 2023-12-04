@@ -26,7 +26,7 @@
             	{{ i }}
             </td>
             <td>
-                <a [routerLink]="['/oceania', oceania.id]">{{ oceania.name }}</a>
+                <a [routerLink]="['oceania', oceania.id]">{{ oceania.name }}</a>
             </td>
             <td>{{ oceania.capital }}</td>
             <td>{{ oceania.population | thousandSeparator }}</td>
